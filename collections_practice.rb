@@ -52,6 +52,7 @@ def count_elements(names)
     name.each do |value|
     binding.pry
   end
+  end
   
 end
 
