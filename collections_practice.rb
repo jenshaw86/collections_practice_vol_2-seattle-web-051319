@@ -47,7 +47,7 @@ def find_cool(data)
   is_cool
 end
 
-def count_elements(names)
+def count_elements(names, name)
   binding.pry
 end
 
