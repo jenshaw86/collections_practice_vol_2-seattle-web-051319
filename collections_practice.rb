@@ -51,7 +51,11 @@ def count_elements(names)
   count_array = []
   
   names.each do |name|
-    if 
+    count_array.each do |element|
+      
+    end
+    name[:name]
+      
     binding.pry
   end
   
