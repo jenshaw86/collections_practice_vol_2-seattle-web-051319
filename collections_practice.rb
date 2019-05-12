@@ -54,6 +54,8 @@ def count_elements(names)
     count_array.each do |element|
       if element[:name] == name[:name]
         element[:count] += 1
+      end
+      
     hash = name
     hash[:count] = names.count(name)
     count_array << hash
