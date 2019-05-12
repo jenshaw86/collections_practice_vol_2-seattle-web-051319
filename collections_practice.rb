@@ -53,7 +53,7 @@ def count_elements(names)
   names.each do |name|
     if count_array.length == 0
       hash = name
-      hash[:count] = names.count(name)
+      hash[:count] = 1
       count_array << hash
     else 
       count_array.each do |element|
