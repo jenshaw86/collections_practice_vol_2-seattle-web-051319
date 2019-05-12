@@ -50,8 +50,10 @@ end
 def count_elements(names)
   names.each do |name|
     
-  end
   binding.pry
+  
+  end
+  
 end
 
 def organize_schools(schools)
