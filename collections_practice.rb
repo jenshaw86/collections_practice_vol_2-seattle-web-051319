@@ -48,5 +48,10 @@ def find_cool(data)
 end
 
 def count_elements(names)
+  count_array = []
   
+  names.each do |name|
+    hash = name
+    hash[:count] = 
+  end
 end
