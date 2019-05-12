@@ -50,12 +50,12 @@ end
 def count_elements(names)
   count_array = []
   names_array = names.uniq
+  binding.pry
   
-  
-  names.each do |name|
+  # names.each do |name|
     
     
     
-  end
+  # end
   count_array
 end
