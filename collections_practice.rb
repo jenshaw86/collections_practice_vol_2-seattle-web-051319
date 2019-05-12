@@ -50,8 +50,9 @@ end
 def count_elements(names)
   count_array = []
   
-  names.each do |name|
-    count_array.each do |element|
+  
+  count_array.each do |element|
+    names.each do |name|
       if element[:name] == name[:name]
         element[:count] += 1
       end
