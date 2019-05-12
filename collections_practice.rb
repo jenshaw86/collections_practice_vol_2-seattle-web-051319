@@ -57,6 +57,7 @@ def count_elements(names)
       end
       hash = name
       hash[:count] << names.count(name)
+      count_array << hash
     end
     name[:name]
       
