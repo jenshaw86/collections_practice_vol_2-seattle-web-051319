@@ -69,7 +69,7 @@ def count_elements(names)
   count_array
 end
 
-def organize_schools(schools)
-  schools_by_location = []
+# def organize_schools(schools)
+#   schools_by_location = []
 
-end
+# end
