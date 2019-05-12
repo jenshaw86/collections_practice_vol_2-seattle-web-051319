@@ -47,6 +47,10 @@ def find_cool(data)
   is_cool
 end
 
+def count_elements(names)
+  
+end
+
 def organize_schools(schools)
   schools_by_location = []
 
