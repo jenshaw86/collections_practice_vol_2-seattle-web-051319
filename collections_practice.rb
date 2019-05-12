@@ -65,11 +65,6 @@ def count_elements(names)
         count_array << names.count(name)
       end
     end
-  end
   count_array
+  end
 end
-
-# def organize_schools(schools)
-#   schools_by_location = []
-
-# end
