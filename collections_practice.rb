@@ -48,7 +48,7 @@ def find_cool(data)
 end
 
 def count_elements(names)
-  
+  binding.pry
 end
 
 def organize_schools(schools)
