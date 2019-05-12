@@ -61,7 +61,7 @@ def count_elements(names)
           element[:count] += 1
         else 
           hash = name
-          hash[:count] << names.count(name)
+          hash[:count] = names.count(name)
           count_array << names.count(name)
         end
       end
