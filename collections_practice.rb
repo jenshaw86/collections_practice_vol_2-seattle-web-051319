@@ -51,7 +51,7 @@ def count_elements(names)
   count_array = []
   
   names.each do |name|
-    hash = {}
+    if 
     binding.pry
   end
   
