@@ -59,11 +59,7 @@ def count_elements(names)
       hash[:count] << names.count(name)
       count_array << hash
     end
-    name[:name]
-      
-    binding.pry
   end
-  
 end
 
 def organize_schools(schools)
