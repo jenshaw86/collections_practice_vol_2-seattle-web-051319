@@ -50,12 +50,17 @@ end
 def count_elements(names)
   count_array = []
   
-  
-  count_array.each do |element|
-    names.each do |name|
+  names.each do |name|
+    if count_array.length == 0
+      hash = name
+      hash[:count] << names.count(name)
+      count_array << names.count(name)
+    else 
+      count_array.each do |element|
       if element[:name] == name[:name]
         element[:count] += 1
       end
+      
       hash = name
       hash[:count] << names.count(name)
       count_array << hash
