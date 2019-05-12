@@ -47,7 +47,10 @@ def find_cool(data)
   is_cool
 end
 
-def count_elements(names, value)
+def count_elements(names)
+  names.each do |name|
+    
+  end
   binding.pry
 end
 
