@@ -49,9 +49,11 @@ end
 
 def count_elements(names)
   count_array = []
-  
+  names_array = names
+  names_array.uniq
   names.each do |name|
-    count_array << name
+    
+    
     
   end
   count_array
