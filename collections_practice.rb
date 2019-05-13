@@ -59,7 +59,7 @@ def organize_schools(schools)
   schools_by_location = {}
   schools.each do |school, info|
     if (schools_by_location.has_key?(info[:location])) == false
-      schools_by_location[info[:location]] => [school]
+      schools_by_location[info[:location]] = [school]
     else
       schools_by_location.each do |location|
         binding.pry
