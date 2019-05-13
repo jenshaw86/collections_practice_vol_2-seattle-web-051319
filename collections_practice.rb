@@ -59,6 +59,6 @@ def organize_schools(schools)
   schools_by_location = []
   cities = []
   schools.each do |school, info|
-    info[key, value]
+    cities << info[:location]
   end
 end
