@@ -51,6 +51,7 @@ def count_elements(names)
   count_array = names.uniq
   
   count_array.each do |name|
+    binding.pry
     count_array[:count] = names.count(name)
   end
   count_array
