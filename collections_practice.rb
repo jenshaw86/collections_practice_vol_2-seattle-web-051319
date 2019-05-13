@@ -57,7 +57,7 @@ end
 
 def organize_schools(schools)
   schools_by_location = []
-  schools.each do |school, location|
+  schools.each do |school, info|
     binding.pry
   end
 end
