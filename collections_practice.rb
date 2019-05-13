@@ -60,7 +60,7 @@ def organize_schools(schools)
   cities = []
   schools.each do |school, info|
     if (cities.include?(info[:location])) == false
-      hash = {info[:location] => school
+      hash = {info[:location] => [school]}
   end
   binding.pry
 end
