@@ -61,4 +61,5 @@ def organize_schools(schools)
   schools.each do |school, info|
     cities << info[:location]
   end
+  binding.pry
 end
