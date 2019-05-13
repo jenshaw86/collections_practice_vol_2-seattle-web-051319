@@ -54,3 +54,7 @@ def count_elements(names)
   end
   count_array
 end
+
+def organize_schools(schools)
+  
+end
