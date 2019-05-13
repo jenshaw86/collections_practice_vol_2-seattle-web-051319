@@ -56,5 +56,6 @@ def count_elements(names)
 end
 
 def organize_schools(schools)
+  schools_by_location = []
   binding.pry
 end
