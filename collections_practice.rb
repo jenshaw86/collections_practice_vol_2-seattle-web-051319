@@ -59,6 +59,8 @@ def organize_schools(schools)
   schools_by_location = []
   cities = []
   schools.each do |school, info|
+    if (cities.include?(info[:location])) == false
+      
     cities << info[:location]
   end
   binding.pry
