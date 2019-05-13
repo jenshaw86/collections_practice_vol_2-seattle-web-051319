@@ -56,11 +56,10 @@ def count_elements(names)
 end
 
 def organize_schools(schools)
-  schools_by_location = []
-  cities = []
+  schools_by_location = {}
   schools.each do |school, info|
     if (cities.include?(info[:location])) == false
-      hash = {info[:location] => [school]}
+      schools_by_location << info[:location] => [school]
   end
   binding.pry
 end
