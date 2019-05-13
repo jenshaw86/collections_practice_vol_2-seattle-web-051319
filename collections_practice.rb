@@ -48,14 +48,14 @@ def find_cool(data)
 end
 
 def count_elements(names)
-  count_array = []
-  names_array = names.uniq
-  binding.pry
+  count_array = names.uniq
   
-  # names.each do |name|
+  count_array.each do |name|
+    count_array[:count] = names.count(name)
     
-    
-    
-  # end
+  end
+  
+  
+  end
   count_array
 end
