@@ -57,13 +57,16 @@ end
 
 def organize_schools(schools)
   schools_by_location = {}
+  
   schools.each do |school, info|
-    if (schools_by_location.has_key?(info[:location])) == false
-      schools_by_location[info[:location]] = [school]
-    else
+    if schools_by_location.has_key?(info[:location])
       schools_by_location.each do |city, schools|
-        schools_by_location[city] << school
+        if city == info[:location]
+          schools_by_location[city] << school
+        end
       end
+    else
+      schools_by_location[info[:location]] = [school]
     end
   end
   schools_by_location
