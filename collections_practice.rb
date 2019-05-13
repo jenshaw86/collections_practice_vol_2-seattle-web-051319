@@ -63,7 +63,6 @@ def organize_schools(schools)
     else
       schools_by_location.each do |city, schools|
         schools_by_location[city] << school
-        binding.pry
       end
     end
   end
