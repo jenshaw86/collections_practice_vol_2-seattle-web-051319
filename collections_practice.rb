@@ -52,10 +52,6 @@ def count_elements(names)
   
   count_array.each do |name|
     count_array[:count] = names.count(name)
-    
-  end
-  
-  
   end
   count_array
 end
